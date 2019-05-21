@@ -25,6 +25,8 @@ ScriptLocale=en-US
 [Actions]
 vuser_init=vuser_init.c
 Action=Action.c
+Test_Action1=Test_Action1.c
+Test_Action2=Test_Action2.c
 vuser_end=vuser_end.c
 [RunLogicFiles]
 Default Profile=default.usp
@@ -37,23 +39,31 @@ globals.h=
 [Modified Actions]
 vuser_init=1
 Action=1
+Test_Action1=0
+Test_Action2=0
 vuser_end=0
 [Recorded Actions]
 vuser_init=0
 Action=1
+Test_Action1=0
+Test_Action2=0
 vuser_end=0
 [Replayed Actions]
 vuser_init=1
 Action=1
+Test_Action1=0
+Test_Action2=0
 vuser_end=1
 [Interpreters]
 vuser_init=cci
 Action=cci
+Test_Action1=cci
+Test_Action2=cci
 vuser_end=cci
 [TransactionsOrder]
 Order=
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
-LastReplayedRunName=result1
-ActiveRunName=result1
+LastReplayedRunName=
+ActiveRunName=
