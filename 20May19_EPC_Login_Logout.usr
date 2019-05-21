@@ -37,7 +37,7 @@ globals.h=
 [Modified Actions]
 vuser_init=1
 Action=1
-vuser_end=1
+vuser_end=0
 [Recorded Actions]
 vuser_init=0
 Action=1
@@ -55,5 +55,5 @@ Order=
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
-LastReplayedRunName=
-ActiveRunName=
+LastReplayedRunName=result1
+ActiveRunName=result1

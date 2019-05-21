@@ -1,8 +1,6 @@
 Action()
 {
 
-	// Changes has been Done - V 0.2
-	
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 
 	web_add_auto_header("Upgrade-Insecure-Requests", 
