@@ -1,0 +1,11 @@
+GET /Users/Account/LogOff HTTP/1.1
+Host: epc2017-itg-beta.msys.parts
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: https://epc2017-itg-beta.msys.parts/commerce/orders
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: __cfduid=d20e6f68bca6c54b81636962fbee39e881558522673; _ga=GA1.2.1978431014.1558522681; _gid=GA1.2.1271832036.1558522681; _gat=1; .ASPXAUTH=41CF2A31247BDB2975EB5E5B5E5BCD0E25251DC0A6504B791C4998C2882B87994AC1391A777836133A7B209890EB7247721BB42249128968BFE21DB203440D4FEB52C68FE6D8FF4787148870A047F27BC1ABDC7FE066DC45680CBD1129A211DC3714F475253765CE90A1638948B8A8A84F2153B5D6B08CB72F87B6BF8B4E2C975BA6616DC34C1AED2DB10182EF3654A0; __RequestVerificationToken=CtTnWc94cXUi9gR6TBunvBSe7IvQmIs7AKmelHWsMvixIo5wVBgYXRWTvUUN8cNFx1qIfh3dUk_ztWo91IcBBT9HibyNZwMaFO64iGLl5og1
+
