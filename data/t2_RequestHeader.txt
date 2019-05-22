@@ -1,0 +1,15 @@
+POST /Users/Account/LogOn?ReturnUrl=%2Fcommerce%2Forders HTTP/1.1
+Host: epc2017-itg-beta.msys.parts
+Connection: keep-alive
+Content-Length: 207
+Cache-Control: max-age=0
+Origin: https://epc2017-itg-beta.msys.parts
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: https://epc2017-itg-beta.msys.parts/Users/Account/AccessDenied?ReturnUrl=%2Fcommerce%2Forders
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: __cfduid=dcfe670886d8b1de61962555784c50bc11558522393; __RequestVerificationToken=o6p1YLZH-Bb1oANPL8axoF7i5Ub-jTtjb303EJkaYbjKmJfVH_FhorR1TWUhZhClgYOBn-RERi7ooj2ttU5Frpi75TldU6TYzMCsi1njcP01; _ga=GA1.2.118714384.1558522398; _gid=GA1.2.748241074.1558522398; _gat=1
+

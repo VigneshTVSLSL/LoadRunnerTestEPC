@@ -1,0 +1,1055 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/woff2"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/octet-stream"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/font-woff"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 7,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "May-22-2019",
+    "RecordingDuration": 76125,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1558522359,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 3907642,
+    "TotalBytesSent": 37949,
+    "TotalRequests": 42,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "webex.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "66.163.35.36",
+          "IncludeInScript": false,
+          "Name": "sec-tws-prod-vip.webex.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 344,
+              "EventId": 151,
+              "HttpStatus": 200,
+              "Size": 7,
+              "URL": "https://sec-tws-prod-vip.webex.com/metric/v1"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "site24x7rum.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "13.33.169.61",
+          "IncludeInScript": false,
+          "Name": "static.site24x7rum.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 1139,
+              "HttpStatus": 200,
+              "Size": 1,
+              "URL": "https://static.site24x7rum.com/beacon/site24x7rum-min.js?appKey=6bd473a86c64e31ef41d73cc75dfb368"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 823,
+              "HttpStatus": 200,
+              "Size": 1,
+              "URL": "https://static.site24x7rum.com/beacon/site24x7rum-min.js?appKey=6bd473a86c64e31ef41d73cc75dfb368"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 46,
+              "EventId": 712,
+              "HttpStatus": 200,
+              "Size": 1,
+              "URL": "https://static.site24x7rum.com/beacon/site24x7rum-min.js?appKey=6bd473a86c64e31ef41d73cc75dfb368"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 78,
+              "EventId": 596,
+              "HttpStatus": 200,
+              "Size": 1,
+              "URL": "https://static.site24x7rum.com/beacon/site24x7rum-min.js?appKey=6bd473a86c64e31ef41d73cc75dfb368"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mxpnl.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "130.211.5.208",
+          "IncludeInScript": false,
+          "Name": "cdn.mxpnl.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 31,
+              "EventId": 115,
+              "HttpStatus": 200,
+              "Size": 23629,
+              "URL": "https://cdn.mxpnl.com/libs/mixpanel-2.2.min.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "msys.parts",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "104.27.174.224",
+          "IncludeInScript": true,
+          "Name": "epc2017-itg-beta.msys.parts",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 485,
+              "EventId": 1136,
+              "HttpStatus": 200,
+              "Size": 1874,
+              "URL": "https://epc2017-itg-beta.msys.parts/Users/Account/AccessDenied?ReturnUrl=%2F"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 438,
+              "EventId": 1133,
+              "HttpStatus": 302,
+              "Size": 155,
+              "URL": "https://epc2017-itg-beta.msys.parts/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 500,
+              "EventId": 1130,
+              "HttpStatus": 302,
+              "Size": 115,
+              "URL": "https://epc2017-itg-beta.msys.parts/Users/Account/LogOff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 1500,
+              "EventId": 1007,
+              "HttpStatus": 200,
+              "Size": 143577,
+              "URL": "https://epc2017-itg-beta.msys.parts/catalog/all/media/F53DEL3FOBRTEMBRG4XW2ZLENFQS62LUF5JUWUSRJNAUCQKBIFAUCQJONJTGSZQ"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 1172,
+              "EventId": 980,
+              "HttpStatus": 200,
+              "Size": 4340,
+              "URL": "https://epc2017-itg-beta.msys.parts/catalog/all/media/F53DEL3FOBRTEMBRG4XW2ZLENFQS62LUF5DEERCBJFAUCQKBIFAUCQJOOBXGO"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 1531,
+              "EventId": 973,
+              "HttpStatus": 200,
+              "Size": 39305,
+              "URL": "https://epc2017-itg-beta.msys.parts/catalog/all/media/F53DEL3FOBRTEMBRG4XW2ZLENFQS62LUF4ZVMQSBJFAUCQKBIFAUCQJONJYGO"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 1391,
+              "EventId": 965,
+              "HttpStatus": 200,
+              "Size": 2068750,
+              "URL": "https://epc2017-itg-beta.msys.parts/catalog/all/media/F53DEL3FOBRTEMBRG4XW2ZLENFQS62LUF5CTGR2BIVAUCQKBIFAUCQJONJYGO"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 1157,
+              "EventId": 961,
+              "HttpStatus": 200,
+              "Size": 8469,
+              "URL": "https://epc2017-itg-beta.msys.parts/catalog/all/media/F53DEL3FOBRTEMBRG4XW2ZLENFQS62LUF5DDGSCBIVAUCQKBIFAUCQJONJYGO"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/font-woff",
+              "DownloadTime": 250,
+              "EventId": 956,
+              "HttpStatus": 200,
+              "Size": 1318,
+              "URL": "https://epc2017-itg-beta.msys.parts/Themes/EPC2017/Styles/fonts/slick.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 516,
+              "EventId": 945,
+              "HttpStatus": 200,
+              "Size": 4178,
+              "URL": "https://epc2017-itg-beta.msys.parts/Themes/EPC2017/Styles/ajax-loader.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 797,
+              "EventId": 942,
+              "HttpStatus": 200,
+              "Size": 86673,
+              "URL": "https://epc2017-itg-beta.msys.parts/catalog/all/media/F53DEL3FOBRTEMBRG4XW2ZLENFQS62LUF5FTEUSRJNAUCQKBIFAUCQJONJYGO"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 734,
+              "EventId": 940,
+              "HttpStatus": 200,
+              "Size": 26397,
+              "URL": "https://epc2017-itg-beta.msys.parts/catalog/all/media/F53DEL3FOBRTEMBRG4XW2ZLENFQS62LUF5HUGTSRJNAUCQKBIFAUCQJOOBXGO"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 188,
+              "EventId": 935,
+              "HttpStatus": 200,
+              "Size": 335,
+              "URL": "https://epc2017-itg-beta.msys.parts/Modules/OrchardHUN.Shoutbox/scripts/orchardhun-shoutbox.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 406,
+              "EventId": 868,
+              "HttpStatus": 200,
+              "Size": 102005,
+              "URL": "https://epc2017-itg-beta.msys.parts/Media/Epc2017Beta/_Profiles/50328b9/d32e028a/Receiving.jpg?v=636467672659007731"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 406,
+              "EventId": 865,
+              "HttpStatus": 200,
+              "Size": 160638,
+              "URL": "https://epc2017-itg-beta.msys.parts/Media/Epc2017Beta/_Profiles/50328b9/d32e028a/soldier-edited-with%20blue.jpg?v=636467672672133107"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 312,
+              "EventId": 860,
+              "HttpStatus": 200,
+              "Size": 203981,
+              "URL": "https://epc2017-itg-beta.msys.parts/Media/Epc2017Beta/_Profiles/50328b9/d32e028a/Delivery.jpg?v=636467672666039165"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 281,
+              "EventId": 827,
+              "HttpStatus": 200,
+              "Size": 155269,
+              "URL": "https://epc2017-itg-beta.msys.parts/Media/Epc2017Beta/_Profiles/50328b9/d32e028a/soldier-edited.jpg?v=636467672678382756"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 187,
+              "EventId": 820,
+              "HttpStatus": 200,
+              "Size": 193,
+              "URL": "https://epc2017-itg-beta.msys.parts/Modules/OrchardHUN.Shoutbox/Styles/orchardhun-shoutbox.css"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 5828,
+              "EventId": 813,
+              "HttpStatus": 200,
+              "Size": 11082,
+              "URL": "https://epc2017-itg-beta.msys.parts/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 1734,
+              "EventId": 772,
+              "HttpStatus": 200,
+              "Size": 74522,
+              "URL": "https://epc2017-itg-beta.msys.parts/catalog/all/media/F53DEL3FOBRTEMBRG4XW2ZLENFQS62LUF5GTKWSHINMVIQ2NKZNEIQ2YGNKU4QRSK4ZFSUJOOBXGO"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 1797,
+              "EventId": 770,
+              "HttpStatus": 200,
+              "Size": 27385,
+              "URL": "https://epc2017-itg-beta.msys.parts/Themes/msysEPC/Content/Images/logo-full.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 1172,
+              "EventId": 768,
+              "HttpStatus": 200,
+              "Size": 8583,
+              "URL": "https://epc2017-itg-beta.msys.parts/Themes/msysEPC/Content/Images/logo-mobile.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 500,
+              "EventId": 763,
+              "HttpStatus": 200,
+              "Size": 655,
+              "URL": "https://epc2017-itg-beta.msys.parts/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 203,
+              "EventId": 726,
+              "HttpStatus": 200,
+              "Size": 65452,
+              "URL": "https://epc2017-itg-beta.msys.parts/Media/Epc2017Beta/Site/tvs-logo-demo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 204,
+              "EventId": 721,
+              "HttpStatus": 200,
+              "Size": 1460,
+              "URL": "https://epc2017-itg-beta.msys.parts/Themes/EPC2017/styles/fonts/tvssvg.ttf?abj765"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 3203,
+              "EventId": 706,
+              "HttpStatus": 200,
+              "Size": 8093,
+              "URL": "https://epc2017-itg-beta.msys.parts/commerce/orders"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 1250,
+              "EventId": 703,
+              "HttpStatus": 302,
+              "Size": 130,
+              "URL": "https://epc2017-itg-beta.msys.parts/Users/Account/LogOn?ReturnUrl=%2Fcommerce%2Forders"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 1141,
+              "EventId": 611,
+              "HttpStatus": 200,
+              "Size": 27385,
+              "URL": "https://epc2017-itg-beta.msys.parts/Themes/msysEPC/Content/Images/logo-login.png"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 1156,
+              "EventId": 608,
+              "HttpStatus": 200,
+              "Size": 766,
+              "URL": "https://epc2017-itg-beta.msys.parts/Themes/EPC2017/scripts/epitomy.epc2017.quotation.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 1156,
+              "EventId": 551,
+              "HttpStatus": 200,
+              "Size": 4120,
+              "URL": "https://epc2017-itg-beta.msys.parts/Themes/EPC2017/scripts/epitomy.epc2017.webshop.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 1140,
+              "EventId": 545,
+              "HttpStatus": 200,
+              "Size": 52044,
+              "URL": "https://epc2017-itg-beta.msys.parts/Themes/EPC2017/scripts/epitomy.epc2017.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 1484,
+              "EventId": 520,
+              "HttpStatus": 200,
+              "Size": 77160,
+              "URL": "https://epc2017-itg-beta.msys.parts/Themes/EPC2017/Styles/fonts/fontawesome-webfont.woff2?v=4.7.0"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 234,
+              "EventId": 512,
+              "HttpStatus": 200,
+              "Size": 22867,
+              "URL": "https://epc2017-itg-beta.msys.parts/Modules/Epitomy.Quotation/scripts/epitomy.quotation.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 203,
+              "EventId": 482,
+              "HttpStatus": 200,
+              "Size": 96544,
+              "URL": "https://epc2017-itg-beta.msys.parts/Modules/TinyMce/scripts/tinymce.min.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 203,
+              "EventId": 411,
+              "HttpStatus": 200,
+              "Size": 34124,
+              "URL": "https://epc2017-itg-beta.msys.parts/Modules/Epitomy.Steel.Catalogue/scripts/epitomy.steel.catalogue.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 204,
+              "EventId": 402,
+              "HttpStatus": 200,
+              "Size": 60489,
+              "URL": "https://epc2017-itg-beta.msys.parts/Modules/Orchard.Resources/scripts/jquery-ui.min.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 188,
+              "EventId": 384,
+              "HttpStatus": 200,
+              "Size": 17948,
+              "URL": "https://epc2017-itg-beta.msys.parts/Modules/Epitomy.WebShop/scripts/epitomy.webshop.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 250,
+              "EventId": 369,
+              "HttpStatus": 200,
+              "Size": 14600,
+              "URL": "https://epc2017-itg-beta.msys.parts/Themes/EPC2017/styles/fonts/roboto-v16-latin-regular.woff2"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 203,
+              "EventId": 333,
+              "HttpStatus": 200,
+              "Size": 194362,
+              "URL": "https://epc2017-itg-beta.msys.parts/Modules/Epitomy.WebShop.Core/scripts/epitomy.webshop.core.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 203,
+              "EventId": 308,
+              "HttpStatus": 200,
+              "Size": 28939,
+              "URL": "https://epc2017-itg-beta.msys.parts/Modules/Orchard.Resources/scripts/jquery.min.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 219,
+              "EventId": 237,
+              "HttpStatus": 200,
+              "Size": 69469,
+              "URL": "https://epc2017-itg-beta.msys.parts/Themes/msysEPC/Styles/site.css"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 1234,
+              "EventId": 221,
+              "HttpStatus": 200,
+              "Size": 1891,
+              "URL": "https://epc2017-itg-beta.msys.parts/Users/Account/AccessDenied?ReturnUrl=%2Fcommerce%2Forders"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mixpanel.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "130.211.34.183",
+          "IncludeInScript": false,
+          "Name": "api.mixpanel.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 93,
+              "EventId": 329,
+              "HttpStatus": 200,
+              "Size": 1,
+              "URL": "https://api.mixpanel.com/track/?data=eyJldmVudCI6ICIkd2ViX2V2ZW50IiwicHJvcGVydGllcyI6IHsiJG9zIjogIldpbmRvd3MiLCIkYnJvd3NlciI6ICJDaHJvbWUiLCIkY3VycmVudF91cmwiOiAiY2hyb21lLWV4dGVuc2lvbjovL21ib3BnbWRucGNib2hocG5mZ2xnb2hsYmhmb25nYWJpL19nZW5lcmF0ZWRfYmFja2dyb3VuZF9wYWdlLmh0bWwiLCIkYnJvd3Nlcl92ZXJzaW9uIjogNzQsIiRzY3JlZW5faGVpZ2h0IjogNzY4LCIkc2NyZWVuX3dpZHRoIjogMTM2NiwibXBfbGliIjogIndlYiIsIiRsaWJfdmVyc2lvbiI6ICIyLjI4LjAiLCJ0aW1lIjogMTU1ODUyMjM5NS42NDYsImRpc3RpbmN0X2lkIjogNTI4MDMzLCIkZGV2aWNlX2lkIjogIjE2YTUzNWE3YmI5M2YxLTBlY2IyNTgwN2MwODA4LWYzNTMxNjMtMTAwMjAwLTE2YTUzNWE3YmJhNDI4IiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsIiR1c2VyX2lkIjogNTI4MDMzLCIkdGl0bGUiOiAiIiwiJGV2ZW50X3R5cGUiOiAicGFnZXZpZXciLCIkY2VfdmVyc2lvbiI6IDEsIiRob3N0IjogIm1ib3BnbWRucGNib2hocG5mZ2xnb2hsYmhmb25nYWJpIiwiJHBhdGhuYW1lIjogIi9fZ2VuZXJhdGVkX2JhY2tncm91bmRfcGFnZS5odG1sIiwidG9rZW4iOiAiOTRiNWMzMTE2OTJlN2M5ZDAzY2VmOWM5YTdhMzJlYWYifX0%3D&ip=1&_=1558522395647"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 110,
+              "EventId": 306,
+              "HttpStatus": 200,
+              "Size": 1247,
+              "URL": "https://api.mixpanel.com/decide/?verbose=1&version=1&lib=web&token=94b5c311692e7c9d03cef9c9a7a32eaf&ip=1&_=1558522393948"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 79,
+              "EventId": 304,
+              "HttpStatus": 200,
+              "Size": 1,
+              "URL": "https://api.mixpanel.com/track/?data=eyJldmVudCI6ICJtcF9wYWdlX3ZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkNocm9tZSIsIiRjdXJyZW50X3VybCI6ICJjaHJvbWUtZXh0ZW5zaW9uOi8vbWJvcGdtZG5wY2JvaGhwbmZnbGdvaGxiaGZvbmdhYmkvX2dlbmVyYXRlZF9iYWNrZ3JvdW5kX3BhZ2UuaHRtbCIsIiRicm93c2VyX3ZlcnNpb24iOiA3NCwiJHNjcmVlbl9oZWlnaHQiOiA3NjgsIiRzY3JlZW5fd2lkdGgiOiAxMzY2LCJtcF9saWIiOiAid2ViIiwiJGxpYl92ZXJzaW9uIjogIjIuMjguMCIsInRpbWUiOiAxNTU4NTIyMzkzLjk1OCwiZGlzdGluY3RfaWQiOiA1MjgwMzMsIiRkZXZpY2VfaWQiOiAiMTZhNTM1YTdiYjkzZjEtMGVjYjI1ODA3YzA4MDgtZjM1MzE2My0xMDAyMDAtMTZhNTM1YTdiYmE0MjgiLCIkaW5pdGlhbF9yZWZlcnJlciI6ICIkZGlyZWN0IiwiJGluaXRpYWxfcmVmZXJyaW5nX2RvbWFpbiI6ICIkZGlyZWN0IiwiJHVzZXJfaWQiOiA1MjgwMzMsIm1wX3BhZ2UiOiAiY2hyb21lLWV4dGVuc2lvbjovL21ib3BnbWRucGNib2hocG5mZ2xnb2hsYmhmb25nYWJpL19nZW5lcmF0ZWRfYmFja2dyb3VuZF9wYWdlLmh0bWwiLCJtcF9icm93c2VyIjogIkNocm9tZSIsIm1wX3BsYXRmb3JtIjogIldpbmRvd3MiLCJ0b2tlbiI6ICI5NGI1YzMxMTY5MmU3YzlkMDNjZWY5YzlhN2EzMmVhZiJ9fQ%3D%3D&ip=1&_=1558522393960"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.31.195",
+          "IncludeInScript": false,
+          "Name": "ssl.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 78,
+              "EventId": 74,
+              "HttpStatus": 200,
+              "Size": 69547,
+              "URL": "https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_variation_0.pb"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 63,
+              "EventId": 72,
+              "HttpStatus": 200,
+              "Size": 69547,
+              "URL": "https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "grammarly.io",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.203.2.172",
+          "IncludeInScript": false,
+          "Name": "f-log-extension.grammarly.io",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 297,
+              "EventId": 687,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://f-log-extension.grammarly.io/logv2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 297,
+              "EventId": 681,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://f-log-extension.grammarly.io/logv2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 297,
+              "EventId": 677,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://f-log-extension.grammarly.io/logv2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 297,
+              "EventId": 247,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://f-log-extension.grammarly.io/logv2"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "grammarly.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "54.175.110.26",
+          "IncludeInScript": false,
+          "Name": "data.grammarly.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 297,
+              "EventId": 685,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://data.grammarly.com/api/props/v2/emotionsFeature"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 297,
+              "EventId": 679,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://data.grammarly.com/api/props/v2/dialectStrong"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 313,
+              "EventId": 675,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://data.grammarly.com/api/props/v2/dialectWeak"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 313,
+              "EventId": 673,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://data.grammarly.com/api/props/v2/find"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 360,
+              "EventId": 671,
+              "HttpStatus": 200,
+              "Size": 70,
+              "URL": "https://data.grammarly.com/api/mimic"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "52.6.10.250",
+          "IncludeInScript": false,
+          "Name": "auth.grammarly.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 266,
+              "EventId": 659,
+              "HttpStatus": 200,
+              "Size": 768,
+              "URL": "https://auth.grammarly.com/v3/user/oranonymous?app=chromeExt&containerId=vlhp8e2t6cbs082"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 281,
+              "EventId": 143,
+              "HttpStatus": 200,
+              "Size": 768,
+              "URL": "https://auth.grammarly.com/v3/user/oranonymous?app=chromeExt&containerId=vlhp8e2t6cbs082"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleusercontent.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.26.161",
+          "IncludeInScript": false,
+          "Name": "clients2.googleusercontent.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 809,
+              "HttpStatus": 403,
+              "Size": 2424,
+              "URL": "https://clients2.googleusercontent.com/crx/blobs/QwAAAHF3InbmK-wFIemaY3I3BCM_FyU9vxoZi_Czpjw5GKyU0wcEk7aYS3qkfD30irtor1ET6nmzt7OtXqec16rx83hVSfBlZY4MfdQT4-g6k48ZAMZSmuWOqGwuBBb-UCntZmTf5qSRqvB5Zw/extension_14_914_2295_0.crx?authuser=3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 188,
+              "EventId": 699,
+              "HttpStatus": 403,
+              "Size": 2424,
+              "URL": "https://clients2.googleusercontent.com/crx/blobs/QwAAAHF3InbmK-wFIemaY3I3BCM_FyU9vxoZi_Czpjw5GKyU0wcEk7aYS3qkfD30irtor1ET6nmzt7OtXqec16rx83hVSfBlZY4MfdQT4-g6k48ZAMZSmuWOqGwuBBb-UCntZmTf5qSRqvB5Zw/extension_14_914_2295_0.crx?authuser=2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 328,
+              "EventId": 654,
+              "HttpStatus": 403,
+              "Size": 2424,
+              "URL": "https://clients2.googleusercontent.com/crx/blobs/QwAAAHF3InbmK-wFIemaY3I3BCM_FyU9vxoZi_Czpjw5GKyU0wcEk7aYS3qkfD30irtor1ET6nmzt7OtXqec16rx83hVSfBlZY4MfdQT4-g6k48ZAMZSmuWOqGwuBBb-UCntZmTf5qSRqvB5Zw/extension_14_914_2295_0.crx?authuser=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 634,
+              "HttpStatus": 403,
+              "Size": 2413,
+              "URL": "https://clients2.googleusercontent.com/crx/blobs/QwAAAHF3InbmK-wFIemaY3I3BCM_FyU9vxoZi_Czpjw5GKyU0wcEk7aYS3qkfD30irtor1ET6nmzt7OtXqec16rx83hVSfBlZY4MfdQT4-g6k48ZAMZSmuWOqGwuBBb-UCntZmTf5qSRqvB5Zw/extension_14_914_2295_0.crx"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 141,
+              "EventId": 442,
+              "HttpStatus": 403,
+              "Size": 2413,
+              "URL": "https://clients2.googleusercontent.com/crx/blobs/QwAAAHF3InbmK-wFIemaY3I3BCM_FyU9vxoZi_Czpjw5GKyU0wcEk7aYS3qkfD30irtor1ET6nmzt7OtXqec16rx83hVSfBlZY4MfdQT4-g6k48ZAMZSmuWOqGwuBBb-UCntZmTf5qSRqvB5Zw/extension_14_914_2295_0.crx"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.166.99",
+          "IncludeInScript": false,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 219,
+              "EventId": 109,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=74"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.163.78",
+          "IncludeInScript": false,
+          "Name": "clients2.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 250,
+              "EventId": 642,
+              "HttpStatus": 200,
+              "Size": 861,
+              "URL": "https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=74.0.3729.157&lang=en-US&acceptformat=crx2,crx3&x=id%3Daapocclcgogkmnckokdopfmhonfmgoek%26v%3D0.10%26installedby%3Dinternal%26uc%26brand%3DCHBH&x=id%3Daicdiabnghjnejfempeinmnphllefehc%26v%3D5.0.7%26installedby%3Dinternal%26uc%26brand%3DCHBH&x=id%3Daohghmighlieiainnegkcijnfilokake%26v%3D0.10%26installedby%3Dinternal%26uc%26brand%3DCHBH&x=id%3Dapdfllckaahabafndbhieahigkjlhalf%26v%3D14.1%26installedby%3Dinternal%26uc%26brand%3DCHBH&x=id%3Dblpcfgokakmgnkcojhhkbfbldkacnbeo%26v%3D4.2.8%26installedby%3Dinternal%26uc%26brand%3DCHBH&x=id%3Ddjgfmlohefpomchfabngccpbaflcahjf%26v%3D1.6.1%26installedby%3Dinternal%26uc%26brand%3DCHBH&x=id%3Ddkgencfabioofgdmhhjljpkbbchbikbh%26v%3D9.0.6821%26installedby%3Dexternal%26uc%26brand%3DCHBH&x=id%3Dfelcaaldnbdncclmgdcncolpebgiejap%26v%3D1.2%26installedby%3Dinternal%26uc%26brand%3DCHBH&x=id%3Dghbmnnjooekpmoecnnnilnnbdlolhkhi%26v%3D1.7%26installedby%3Dexternal%26uc%26brand%3DCHBH&x=id%3Djlhmfgmfgeifomenelglieieghnjghma%26v%3D1.3.0%26installedby%3Dinternal%26uc%26brand%3DCHBH&x=id%3Dkbfnbcaeplbcioakkpcpgfkobkghlhen%26v%3D14.910.2247%26installedby%3Dinternal%26uc%26brand%3DCHBH%26ping%3Dr%253D9%2526e%253D1&x=id%3Dmbopgmdnpcbohhpnfglgohlbhfongabi%26v%3D4.5.1%26installedby%3Dinternal%26uc%26brand%3DCHBH&x=id%3Dnmmhkkegccagdldgiimedpiccmgmieda%26v%3D1.0.0.4%26installedby%3Dother%26uc%26brand%3DCHBH&x=id%3Dpjkljhegncpnkpknbcohdijeoejaedia%26v%3D8.2%26installedby%3Dinternal%26uc%26brand%3DCHBH&x=id%3Dpkedcjkdefgpdelpbcmbmeomcjbeemfm%26v%3D7419.311.0.0%26installedby%3Dother%26uc%26brand%3DCHBH"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 218,
+              "EventId": 233,
+              "HttpStatus": 200,
+              "Size": 519,
+              "URL": "https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=74.0.3729.157&lang=en-US&acceptformat=crx2,crx3&x=id%3Dkbfnbcaeplbcioakkpcpgfkobkghlhen%26v%3D14.910.2247%26installedby%3Dinternal%26uc%26brand%3DCHBH%26ping%3Dr%253D9%2526e%253D1"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.167.141",
+          "IncludeInScript": false,
+          "Name": "accounts.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 109,
+              "EventId": 229,
+              "HttpStatus": 200,
+              "Size": 45,
+              "URL": "https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google-analytics.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.163.78",
+          "IncludeInScript": false,
+          "Name": "www.google-analytics.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 79,
+              "EventId": 1142,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://www.google-analytics.com/collect?v=1&_v=j75&a=1098060988&t=pageview&_s=1&dl=https%3A%2F%2Fepc2017-itg-beta.msys.parts%2FUsers%2FAccount%2FAccessDenied%3FReturnUrl%3D%252F&ul=en-in&de=UTF-8&dt=Epc%202017%20Beta%20Site&sd=24-bit&sr=1366x768&vp=1366x667&je=0&_u=CCCAgEAj~&jid=&gjid=&cid=118714384.1558522398&tid=UA-99714779-2&_gid=748241074.1558522398&z=8125516"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 188,
+              "EventId": 876,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://www.google-analytics.com/collect?v=1&_v=j75&a=1179503811&t=pageview&_s=1&dl=https%3A%2F%2Fepc2017-itg-beta.msys.parts%2F&ul=en-in&de=UTF-8&dt=Epc%202017%20Beta%20Site%20-%20Taxonomies&sd=24-bit&sr=1366x768&vp=1366x667&je=0&_u=CCCAgEAj~&jid=&gjid=&cid=118714384.1558522398&tid=UA-99714779-2&_gid=748241074.1558522398&z=38665430"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 110,
+              "EventId": 724,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://www.google-analytics.com/collect?v=1&_v=j75&a=1301587010&t=pageview&_s=1&dl=https%3A%2F%2Fepc2017-itg-beta.msys.parts%2Fcommerce%2Forders&ul=en-in&de=UTF-8&dt=Epc%202017%20Beta%20Site&sd=24-bit&sr=1366x768&vp=1349x667&je=0&_u=CCCAgEAj~&jid=&gjid=&cid=118714384.1558522398&tid=UA-99714779-2&_gid=748241074.1558522398&z=71137143"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 16,
+              "EventId": 606,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://www.google-analytics.com/collect?v=1&_v=j75&a=440193891&t=pageview&_s=1&dl=https%3A%2F%2Fepc2017-itg-beta.msys.parts%2FUsers%2FAccount%2FAccessDenied%3FReturnUrl%3D%252Fcommerce%252Forders&ul=en-in&de=UTF-8&dt=Epc%202017%20Beta%20Site&sd=24-bit&sr=1366x768&vp=1366x667&je=0&_u=KGBAgEAj~&jid=549170225&gjid=743348525&cid=118714384.1558522398&tid=UA-99714779-2&_gid=748241074.1558522398&z=1007960942"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 31,
+              "EventId": 559,
+              "HttpStatus": 200,
+              "Size": 856,
+              "URL": "https://www.google-analytics.com/plugins/ua/linkid.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 16,
+              "EventId": 530,
+              "HttpStatus": 200,
+              "Size": 17779,
+              "URL": "https://www.google-analytics.com/analytics.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "doubleclick.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "74.125.24.156",
+          "IncludeInScript": false,
+          "Name": "stats.g.doubleclick.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 62,
+              "EventId": 622,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://stats.g.doubleclick.net/r/collect?t=dc&aip=1&_r=3&v=1&_v=j75&tid=UA-99714779-2&cid=118714384.1558522398&jid=549170225&gjid=743348525&_gid=748241074.1558522398&_u=KGBAgEAj~&z=1890361080"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}
